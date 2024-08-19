@@ -16,25 +16,25 @@ Samples:
     SamplePath: "pseudodata"
     Data: True
     
-    -Name: "singletop_schan_lept_top"
+    -Name: "Singletop_schan_lept_top"
     SamplePath: "singletop_schan_lept_top"
     
-    -Name: "singletop_schan_lept_antitop"
+    -Name: "Singletop_schan_lept_antitop"
     SamplePath: "singletop_schan_lept_antitop"
     
-    -Name: "tchan_BW50_lept_top"
+    -Name: "t-chan_BW50_lept_top"
     SamplePath: "tchan_BW50_lept_top"
     
-    -Name: "tchan_BW50_lept_antitop"
+    -Name: "t-chan_BW50_lept_antitop"
     SamplePath: "tchan_BW50_lept_antitop"
     
-    -Name: "tW_dyn_DR_incl_antitop"
+    -Name: "t-W_dyn_DR_incl_antitop"
     SamplePath: "tW_dyn_DR_incl_antitop"
     
-    -Name: "tW_dyn_DR_incl_top"
+    -Name: "t-W_dyn_DR_incl_top"
     SamplePath: "tW_dyn_DR_incl_top"
     
-    -Name: "ttbar_hdamp258p75_nonallhad"
+    -Name: "t-tbar_hdamp258p75_nonallhad"
     SamplePath: "ttbar_hdamp258p75_nonallhad"
     
     
