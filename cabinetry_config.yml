@@ -16,26 +16,17 @@ Samples:
     SamplePath: "pseudodata"
     Data: True
     
-  - Name: "singletop_schan_lept_top"
-    SamplePath: "singletop_schan_lept_top"
+  - Name: "single top s chan."
+    SamplePath: "single top s chan."
     
-  - Name: "singletop_schan_lept_antitop"
-    SamplePath: "singletop_schan_lept_antitop"
+  - Name: "single top t chan."
+    SamplePath: "single top t chan."
     
-  - Name: "tchan_BW50_lept_top"
-    SamplePath: "tchan_BW50_lept_top"
+  - Name: "single top tW chan."
+    SamplePath: "single top tW chan."    
     
-  - Name: "tchan_BW50_lept_antitop"
-    SamplePath: "tchan_BW50_lept_antitop"
-    
-  - Name: "tW_dyn_DR_incl_antitop"
-    SamplePath: "tW_dyn_DR_incl_antitop"
-    
-  - Name: "tW_dyn_DR_incl_top"
-    SamplePath: "tW_dyn_DR_incl_top"
-    
-  - Name: "ttbar_hdamp258p75_nonallhad"
-    SamplePath: "ttbar_hdamp258p75_nonallhad"
+  - Name: "$t \\bar{t}$"
+    SamplePath: "$t \\bar{t}$"
     
     
 Systematics:
@@ -49,6 +40,6 @@ Systematics:
     
 NormFactors:
   - Name: "ttbar_norm"
-    Samples: "ttbar_hdamp258p75_nonallhad"
+    Samples: "$t \\bar{t}$"
     Nominal: 1.0
     Bounds: [0, 10]
