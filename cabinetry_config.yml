@@ -1,0 +1,54 @@
+General:
+    Measurement: "PHYSLITE_ATLAS_t_tbar"
+    POI: "ttbar_norm"
+    HistogramFolder: "histograms/"
+    InputPath: "histograms.root:{SamplePath}"
+    VariationPath: ""
+    
+Regions: 
+  - Name: "mamin_region"
+    # RegionPath: "SR"
+    Variable: "$m_{bjj}$ [GeV]"
+
+    
+Samples:
+    -Name: "Pseudodata"
+    SamplePath: "pseudodata"
+    Data: True
+    
+    -Name: "singletop_schan_lept_top"
+    SamplePath: "singletop_schan_lept_top"
+    
+    -Name: "singletop_schan_lept_antitop"
+    SamplePath: "singletop_schan_lept_antitop"
+    
+    -Name: "tchan_BW50_lept_top"
+    SamplePath: "tchan_BW50_lept_top"
+    
+    -Name: "tchan_BW50_lept_antitop"
+    SamplePath: "tchan_BW50_lept_antitop"
+    
+    -Name: "tW_dyn_DR_incl_antitop"
+    SamplePath: "tW_dyn_DR_incl_antitop"
+    
+    -Name: "tW_dyn_DR_incl_top"
+    SamplePath: "tW_dyn_DR_incl_top"
+    
+    -Name: "ttbar_hdamp258p75_nonallhad"
+    SamplePath: "ttbar_hdamp258p75_nonallhad"
+    
+    
+Systematics:
+  - Name: "Luminosity"
+    Up:
+      Normalization: 0.05
+    Down:
+      Normalization: -0.05
+    Type: "Normalization"    
+    
+    
+NormFactors:
+  - Name: "ttbar_norm"
+    Samples: "ttbar_hdamp258p75_nonallhad"
+    Nominal: 1.0
+    Bounds: [0, 10]
