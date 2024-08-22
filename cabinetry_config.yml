@@ -16,17 +16,17 @@ Samples:
     SamplePath: "pseudodata"
     Data: True      
     
-  - Name: "a. single top s chan."
-    SamplePath: "single top s chan."
+  - Name: "1) single top s chan."
+    SamplePath: "single top s chan."   
     
-  - Name: "d. $t \\bar{t}$"
-    SamplePath: "$t \\bar{t}$"      
-    
-  - Name: "b. single top t chan."
+  - Name: "2) single top t chan."
     SamplePath: "single top t chan."
     
-  - Name: "c. single top tW chan."
+  - Name: "3) single top tW chan."
     SamplePath: "single top tW chan."    
+    
+  - Name: "4) $t \\bar{t}$"
+    SamplePath: "$t \\bar{t}$"       
     
 Systematics:
   - Name: "Luminosity"
@@ -39,6 +39,6 @@ Systematics:
     
 NormFactors:
   - Name: "ttbar_norm"
-    Samples: "d. $t \\bar{t}$"
+    Samples: "4) $t \\bar{t}$"
     Nominal: 1.0
     Bounds: [0, 10]
