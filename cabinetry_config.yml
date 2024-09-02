@@ -33,15 +33,18 @@ Samples:
   - Name: "4) $t \\bar{t}$"
     SamplePath: "$t \\bar{t}$"       
     
+  - Name: "W+jets"
+    SamplePath: "wjets"    
+    
 Systematics:
   - Name: "Luminosity"
     Up:
-      Normalization: 0.05
+      Normalization: 0.01
     Down:
-      Normalization: -0.05
+      Normalization: -0.01
     Type: "Normalization"    
     
-  - Name: "Modeling"
+  - Name: "Theory t-tbar"
     Up:
       VariationPath: "systematic_var"
     Down:
@@ -55,3 +58,8 @@ NormFactors:
     Samples: "4) $t \\bar{t}$"
     Nominal: 1.0
     Bounds: [0, 10]
+    
+  - Name: "W+jets_norm"
+    Samples: "W+jets"
+    Nominal: 1.0
+    Bounds: [0, 10]    
