@@ -28,13 +28,13 @@ Samples:
     SamplePath: "single top t chan."
     
   - Name: "3) single top tW chan."
-    SamplePath: "single top tW chan."    
+    SamplePath: "single top tW chan."       
     
-  - Name: "4) W and jets"
-    SamplePath: "W and jets"   
-    
-  - Name: "5) $t \\bar{t}$"
+  - Name: "4) $t \\bar{t}$"
     SamplePath: "$t \\bar{t}$"        
+    
+  - Name: "5) W and jets"
+    SamplePath: "W and jets"    
     
 Systematics:
   - Name: "Luminosity"
@@ -55,11 +55,11 @@ Systematics:
     
 NormFactors:
   - Name: "ttbar_norm"
-    Samples: "5) $t \\bar{t}$"
+    Samples: "4) $t \\bar{t}$"
     Nominal: 1.0
     Bounds: [0, 10]
     
   - Name: "W&jets_norm"
-    Samples: "4) W and jets"
+    Samples: "5) W and jets"
     Nominal: 1.0
     Bounds: [0, 10]    
