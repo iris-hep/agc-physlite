@@ -13,12 +13,14 @@ This code here heavily relies on [IRIS-HEP AGC demonstration in Binder](https://
 
 ## How to run?
 
-The code was tested on the (coffea-opendata.casa)[coffea-opendata.casa] cluster with the coffea 2024 server option, it contains all necessary packages already installed. For code usage open the `main_code.ipynb` Jupyther notebook file and start running cells.
+The code was tested on the [coffea-opendata.casa](https://coffea-opendata.casa/) cluster with the coffea 2024 server option, it contains all necessary packages already installed. For code usage open the `main_code.ipynb` Jupyter notebook file and start running cells.
 
 ## Abstract
 
-The [Analysis Grand Challenge (AGC)](https://iris-hep.org/projects/agc.html) stand for testing of the software toolkits on a path from the input data to the resulting plots and other types of output. This repository aims to benchmark the compatibility of the new version of the PHYSLITE data format with the existing infrastructure of the high-energy physics Python packages as well as to provide an example of analysis which one can do for the data stored in PHYSLITE format. For this analysis, the Montecarlo generated open data of the ATLAS collaboration, released together with the [physical data](https://atlas.cern/Updates/News/Open-Data-Research), measured on the LHC during 2015 and 2016 was used. 
+The [Analysis Grand Challenge (AGC)](https://iris-hep.org/projects/agc.html) stand for testing of the software toolkits on a path from the input data to the resulting plots and other types of output. This repository aims to benchmark the compatibility of the new version of the PHYSLITE data format with the existing infrastructure of the high-energy physics Python packages as well as to provide an example of analysis which one can do for the data stored in PHYSLITE format. For this analysis, the Monte Carlo generated open data of the ATLAS collaboration, released together with the [physical data](https://atlas.cern/Updates/News/Open-Data-Research), measured on the LHC during 2015 and 2016 was used.
 
-## Acknowledgement 
+## Acknowledgements
 
-This work was supported by the Institute for Research and Innovation in Software for High Energy Physics, [IRIS-HEP](https://iris-hep.org/)
+This work was supported by the Institute for Research and Innovation in Software for High Energy Physics ([IRIS-HEP](https://iris-hep.org/)) [![NSF-2323298](https://img.shields.io/badge/NSF-2323298-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2323298)
+
+The initial implementation of this project was the work [Denys Klekots](https://github.com/Denys-Klekots)'s 2024 IRIS-HEP Fellow project: [Analysis Grand Challenge with ATLAS PHYSLITE data](https://iris-hep.org/fellows/Denys-Klekots.html).
