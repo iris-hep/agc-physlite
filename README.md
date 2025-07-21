@@ -4,8 +4,8 @@ This code here heavily relies on [IRIS-HEP AGC demonstration in Binder](https://
 
 ## Content of the repository
 
-+ The primary files are the Jupyter notebooks named `main_code_virtual.ipynb` and `main_code_dask.ipynb`, which contain the code, its description and resulting outputs.
-+ The only difference is that the "virtual" notebook is uses virtual arrays while the "dask" notebook uses `dask-awkward`.
++ The primary file is the Jupyter notebook named `main_code.ipynb`, which contains the code, its description and resulting outputs.
++ The directory `utils` contains the pictures used in the markdown description of the `main_code.ipynb` notebook.
 + The directory `utils` contains the pictures used in the markdown description of the main code notebooks.
 + The directory `index_files` contains text files with URLs by which code retrieves the data to do analysis.
 + The file `file_utils.py` contains a utility code for setting up the data retrieval from a remote server.
@@ -14,7 +14,7 @@ This code here heavily relies on [IRIS-HEP AGC demonstration in Binder](https://
 
 ## How to run?
 
-The code was tested on the [coffea-opendata.casa](https://coffea-opendata.casa/) cluster with the coffea 2025 server option, it contains all necessary packages already installed. For code usage open the `main_code_virtual.ipynb` or `main_code_dask.ipynb` Jupyter notebook files and start running cells.
+The code was tested on the [coffea-opendata.casa](https://coffea-opendata.casa/) cluster with the coffea 2025 server option, it contains all necessary packages already installed. For code usage open the `main_code.ipynb` Jupyter notebook file and start running cells.
 
 ## Abstract
 
