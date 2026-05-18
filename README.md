@@ -24,4 +24,4 @@ The [Analysis Grand Challenge (AGC)](https://iris-hep.org/projects/agc.html) sta
 
 This work was supported by the Institute for Research and Innovation in Software for High Energy Physics ([IRIS-HEP](https://iris-hep.org/)) [![NSF-2323298](https://img.shields.io/badge/NSF-2323298-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2323298)
 
-The initial implementation of this project was the work of [Denys Klekots](https://github.com/Denys-Klekots)'s 2024 IRIS-HEP Fellow project: [Analysis Grand Challenge with ATLAS PHYSLITE data](https://iris-hep.org/fellows/Denys-Klekots.html), supported by the IMPRESS-U initiative with funding from the U.S. National Academy of Sciences (US NAS) and the U.S. Office of Naval Research Global (ONRG).
+The initial implementation of this project was the work of [Denys Klekots](https://github.com/Denys-Klekots)'s 2024 IRIS-HEP Fellow project: [Analysis Grand Challenge with ATLAS PHYSLITE data](https://iris-hep.org/fellows/Denys-Klekots.html).
